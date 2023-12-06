@@ -19,6 +19,7 @@ pf
 .idea
 *.pstats
 *.sh
+!utils/*.sh
 travis.yml
 cover
 Include/
@@ -36,3 +37,4 @@ lib/
 lib/
 scratchpad/
 pyvenv.cfg
+*.patch
