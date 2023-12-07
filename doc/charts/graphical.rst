@@ -75,7 +75,7 @@ adding a single, formatted data label to a series.
     highlight.graphicalProperties.ln.solidFill = "0070C0"
     highlight.graphicalProperties.line.width = 40000 # make the line thicker than normal
     highlight.dLbls = DataLabelList()
-    highlight = DataLabel(idx=3, showSerName=True, dLblPos="b", txPr=text_props)
+    highlight = DataLabel(idx=3, showSetName=True, dLblPos="b", txPr=text_props)
     highlight.dLbls.dLbl.append(label)
 
 .. image:: highlighted.png

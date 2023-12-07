@@ -38,7 +38,7 @@ class TestChartBase:
             chart += s
 
 
-    def test_set_catgories(self, ChartBase):
+    def test_set_categories(self, ChartBase):
         from ..series import Series
         s1 = Series()
         s1.__elements__ = ('cat',)

@@ -39,7 +39,7 @@ Adding a new property:
         CustomPropertyList,
     )
 
-    props = CustomePropertyList()
+    props = CustomPropertyList()
     props.append(StringProperty(name="PropName1", value="Something"))
 
 

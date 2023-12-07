@@ -1,5 +1,16 @@
 [default.extend-words]
+# doc/charts/pie.rst
+ue = "ue"
+# doc/worksheet_properties.rst
+BA = "BA"
+# openpyxl/chart/surface_chart.py
+ser = "ser"
+# openpyxl/chart/tests/test_label.py
+Ser = "Ser"
+# openpyxl/chartsheet/tests/test_protection.py
+DAA = "DAA"
 
 [files]
 extend-exclude = [
+  "*.xml",
 ]

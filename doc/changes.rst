@@ -30,7 +30,7 @@ New Features
 Bugfixes
 --------
 
-* `#1156 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/1156>`_ Table filters are always overriden
+* `#1156 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/1156>`_ Table filters are always overridden
 * `#1360 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/1360>`_ Can't read some ScatterCharts if n
 * `#1724 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/1724>`_ Problem with multilevel indices in dataframes
 * `#1772 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/1772>`_ Problem with category indices in dataframes
@@ -63,7 +63,7 @@ The following properties have been removed from worksheets: formula_attributes, 
 Removals
 --------
 
-The following deprecated methods have been removed from workbooks: get_named_range, add_named_range, remove_named_range. And the get_emu_dimesions from images.
+The following deprecated methods have been removed from workbooks: get_named_range, add_named_range, remove_named_range. And the get_emu_dimensions from images.
 
 
 3.0.10 (2022-05-19)
@@ -617,7 +617,7 @@ Minor Changes
 
 Bugfixes
 --------
-* `#812 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/812>`_ Explicitly support for multiple cell ranges in conditonal formatting
+* `#812 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/812>`_ Explicitly support for multiple cell ranges in conditional formatting
 * `#827 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/827>`_ Non-contiguous cell ranges in validators get merged
 * `#837 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/837>`_ Empty data validators create invalid Excel files
 * `#860 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/860>`_ Large validation ranges use lots of memory
@@ -759,7 +759,7 @@ Bugfixes
 * `#846 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/846>`_ Conditional formats not supported in write-only mode
 * `#849 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/849>`_ Conditional formats with no sqref cause an exception
 * `#859 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/859>`_ Headers that start with a number conflict with font size
-* `#902 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/902>`_ TableStyleElements don't always have a condtional format
+* `#902 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/902>`_ TableStyleElements don't always have a conditional format
 * `#908 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/908>`_ Read-only mode sometimes returns too many cells
 
 
@@ -882,7 +882,7 @@ Bug fixes
 * `#743 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/743>`_ Print titles broken on sheetnames with spaces
 * `#748 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/748>`_ Workbook breaks when active sheet is removed
 * `#754 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/754>`_ Incorrect descriptor for Filter values
-* `#756 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/756>`_ Potential XXE vulerability
+* `#756 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/756>`_ Potential XXE vulnerability
 * `#758 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/758>`_ Cannot create files with page breaks and charts
 * `#759 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/759>`_ Problems with worksheets with commas in their titles
 
@@ -928,7 +928,7 @@ Minor changes
 Deprecations
 ------------
 
-Worksheet methods `get_named_range()` and `get_sqaured_range()`
+Worksheet methods `get_named_range()` and `get_squared_range()`
 
 
 Bug fixes
@@ -1085,7 +1085,7 @@ Bug fixes
 * `#540 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/540>`_ Cannot read merged cells in read-only mode
 * `#565 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/565>`_ Empty styled text blocks cannot be parsed
 * `#569 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/569>`_ Issue warning rather than raise Exception raised for unparsable definedNames
-* `#575 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/575>`_ Cannot open workbooks with embdedded OLE files
+* `#575 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/575>`_ Cannot open workbooks with embedded OLE files
 * `#584 <https://foss.heptapod.net/openpyxl/openpyxl/-/issues/584>`_ Exception when saving borders with attributes
 
 
@@ -1345,7 +1345,7 @@ Bug fixes
 ---------
 * `#103 <https://bitbucket.org/openpyxl/openpyxl/issue/103>`_ Set the zoom of a sheet
 * `#199 <https://bitbucket.org/openpyxl/openpyxl/issue/199>`_ Hide gridlines
-* `#215 <https://bitbucket.org/openpyxl/openpyxl/issue/215>`_ Preserve sheet view setings
+* `#215 <https://bitbucket.org/openpyxl/openpyxl/issue/215>`_ Preserve sheet view settings
 * `#262 <https://bitbucket.org/openpyxl/openpyxl/issue/262>`_ Set the zoom of a sheet
 * `#392 <https://bitbucket.org/openpyxl/openpyxl/issue/392>`_ Worksheet header not read
 * `#387 <https://bitbucket.org/openpyxl/openpyxl/issue/387>`_ Cannot read files without styles.xml
@@ -1628,7 +1628,7 @@ Bugfixes
 --------
 * `#260 <https://bitbucket.org/openpyxl/openpyxl/issue/260>`_ better handling of undimensioned worksheets
 * `#268 <https://bitbucket.org/openpyxl/openpyxl/issue/268>`_ non-ascii in formualae
-* `#282 <https://bitbucket.org/openpyxl/openpyxl/issue/282>`_ correct implementation of register_namepsace for Python 2.6
+* `#282 <https://bitbucket.org/openpyxl/openpyxl/issue/282>`_ correct implementation of register_namespace for Python 2.6
 
 
 1.8.3 (2014-02-09)

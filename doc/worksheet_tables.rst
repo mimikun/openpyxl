@@ -104,7 +104,7 @@ Table as a Print Area
 ---------------------
 
 Excel can produce documents with the print area set to the table name. Openpyxl cannot,
-however, resolve such dynamic defintions and will raise a warning when trying to do so.
+however, resolve such dynamic definitions and will raise a warning when trying to do so.
 
 If you need to handle this you can extract the range of the table and define the print area as the
 appropriate cell range.
