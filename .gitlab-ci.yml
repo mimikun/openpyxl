@@ -25,43 +25,43 @@ test-docs:
 
 test-python36:
   <<: *unit
-  image: python:3.6
+  image: python:3.13
   variables:
     TOXENV: py36
 
 test-python37:
   <<: *unit
-  image: python:3.7
+  image: python:3.13
   variables:
     TOXENV: py37
 
 test-python38:
   <<: *unit
-  image: python:3.8
+  image: python:3.13
   variables:
     TOXENV: py38
 
 test-python39:
   <<: *unit
-  image: python:3.9
+  image: python:3.13
   variables:
     TOXENV: py39
 
 test-python310:
   <<: *unit
-  image: python:3.10
+  image: python:3.13
   variables:
     TOXENV: py310
 
 test-python311:
   <<: *unit
-  image: python:3.11
+  image: python:3.13
   variables:
     TOXENV: py311
 
 test-python312:
   <<: *unit
-  image: python:3.12-rc
+  image: python:3.14-rc
   variables:
     TOXENV: py312
 
